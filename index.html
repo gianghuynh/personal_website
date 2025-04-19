@@ -1,379 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <title>Personal Sites</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
-
-    <!-- Favicons -->
-   <link href="" rel="">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
-
-    <!-- Bootstrap CSS File -->
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Libraries CSS Files -->
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/venobox/venobox.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-    <!-- Main Stylesheet File -->
-    <link href="css/style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARMOMANITY</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-
 <body>
+    <nav class="navbar">
+        <a href="#home" class="logo">HARMOMANITY</a>
+        <button class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">HOME</a></li>
+            <li><a href="#together">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#application">CONTACT</a></li>
+        </ul>
+        <button class="contact-btn">CONTACT</button>
+    </nav>
 
-    <!--==========================
-    Header
-  ============================-->
-    <header id="header">
-        <div class="container">
-            <nav id="nav-menu-container">
-                <ul class="nav-menu">
-                    <li class="menu-active"><a href="#intro">Home</a></li>
-                    <li><a href="#about">About me</a></li>
-                    <li><a href="#extracurricular">Extracurricular activities</a></li>
-                    <li><a href="#academic">Academic</a></li>
-                    <li><a href="#gallery">Album</a></li>
-                </ul>
-            </nav>
-            <!-- #nav-menu-container -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>HARMOMANITY<br>LOGISTIC SYSTEM</h1>
+            <p>Bringing Aid, Bridging Gaps</p>
+            <p>The platform connects the volunteer community to organizations that support vulnerable people and helps deliver resources effectively </p>
+            <a href="https://youtu.be/E9j3SrgvBpo" target="_blank" class="get-in-touch">WATCH PROTOTYPE APP</a>
         </div>
-    </header>
-    <!-- #header -->
-
-    <!--==========================
-    Intro Section
-  ============================-->
-    <section id="intro">
-        <div class="intro-container wow fadeIn">
-            <h1 class="mb-4 pb-0">Hi, My name is Giang<br> <h3>"Who I am?" - That's a joke. </h3>
-            <h3 style="font-size:32px" style="font-style: italics" class="mb-4 pb-0" ></h1>
-            <!-- event area:  -->
-            <a href="https://www.youtube.com/watch?v=2G4PKwuQiTE" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+        <div class="hero-image">
+            <img src="./images/logistics-illustration.jpg" alt="Logistics System Illustration">
         </div>
     </section>
 
-    <main id="main">
+    <section class="gallery">
+        <div class="gallery-container">
+            <img src="./images/gallery1.jpg" alt="Gallery Image 1">
+            <img src="./images/gallery2.jpeg" alt="Gallery Image 2">
+            <img src="./images/gallery3.jpeg" alt="Gallery Image 3">
+            <img src="./images/gallery4.jpeg" alt="Gallery Image 4">
+            <img src="./images/gallery5.jpeg" alt="Gallery Image 5">
+        </div>
+    </section>
 
-        <!--==========================
-      About Section
-    ============================-->
-        <section id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <h2>About me</h2>
-                        <p style="justify">I'm Hoai Giang. You can call me Jiang, that's my nickname. Three months later, I will graduate from high school and say goodbye to physics, chemistry, and biology.
-                        </p>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <h3>Education</h3>
-                        <p>Luong Van Chanh High School For The Gifted</p>
-                    </div>
-                    <div class="col-lg-3">
-                        <h3>Interests</h3>
-                        <p>
-                            Human data interaction <br>
-                            Business, startup <br>
-                            Coding, UI/UX design
-                            <br>
-                        </p>
-                    </div>
+    <section id="together" class="together">
+        <div class="together-content">
+            <div class="together-image">
+                <img src="./images/together.jpeg" alt="Together we are stronger">
+            </div>
+            <div class="together-text">
+                <h2>Together we are Stronger</h2>
+                <p>We are committed to providing fast, effective and sustainable assistance in the areas that need it most.</p>
+                <div class="together-buttons">
+                    <button class="get-in-touch">GET IN TOUCH</button>
+                    <a href="https://youtu.be/E9j3SrgvBpo" target="_blank" class="watch-video">
+                        <span class="play-icon"></span>
+                        Watch Prototype App
+                    </a>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!--==========================
-      Extra Section
-    ============================-->
-        <section id="extracurricular" class="wow fadeInUp">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Extracurricular activities</h2>
-                    <h4>These are typical projects that I have participated in during high school, click on project name to see details.</h4>
-                    <p></p>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="extra">
-                            <img src="img/shecodes.jpg" alt="SheCodes VietNam" class="img-fluid">
-                            <div class="details">
-                                <h3><a href="https://shecodesvietnam.com/">SheCodes Vietnam <br> Head of design</a></h3>
-                                <p>SheCodes Vietnam is the most active non-profit organization in the country that supports and provides women with resources to learn more about tech.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-4 col-md-6">
-                        <div class="extra">
-                            <img src="img/ledemain.jpg" alt="Le Demain" class="img-fluid">
-                            <div class="details">
-                                <h3><a href="https://sites.google.com/view/le-demain/?fbclid=IwAR3tmd-ECSgwI0KyP21fcn9ObHW8x_qps-GsmL2jTqvLDuoD8fljZGL5tYA">Le Demain - Founder</a></h3>
-                                <p>Le Demain provides knowledge and skills for participants to understand more about themselves and society. At the same time, helping participants to research and create projects for the community.</p>
-                            </div>
-                        </div>
-                    </div>
-                
-                    <div class="col-lg-4 col-md-6">
-                        <div class="extra">
-                            <img src="img/luongvanchanhvicongdong.jpg" alt="Lương Văn Chánh vì cộng đồng" class="img-fluid">
-                            <div class="details">
-                                <h3><a href="lvcchungtayvicongdong.html">Lương Văn Chánh chung tay vì cộng đồng</a></h3>
-                                <p>The project was built by Luong Van Chanh High School for the Gifted, awarded Luong Van Chanh branded hand sanitizer to many management, health, and educational agencies in the province.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-        </section>
-
-        <!--==========================
-      Academic Section
-    ============================-->
-        <section id="academic" class="section-with-bg">
-            <div class="container wow fadeInUp">
-                <div class="section-header">
-                    <h2>Academic achievements & Activities</h2>
-                    <p></p>
-                </div>
-
-                <ul class="nav nav-tabs" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab"> Achievements</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#day-2" role="tab" data-toggle="tab">Activities</a>
-                    </li>
-                </ul>
-
-                <h3 class="sub-heading"></h3>
-
-                <div class="tab-content row justify-content-center">
-
-                    <!-- Schdule Day 1 -->
-                    <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
-
-                        <div class="row academic-item">
-                            <div class="col-md-2">
-                                <time>12</time>
-                            </div>
-                            <div class="col-md-10">
-                                <h4>ViSEF <span>"The procrastination of high school students, a support program to study efficiency."</span></h4>
-                                <p>- Participate in the national level ViSEF competition<br>
-                                   - First prize at provincial level <br>
-                                   - Second prize at school level
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="row academic-item">
-                            <div class="col-md-2">
-                                <time>11</time>
-                            </div>
-                            <div class="col-md-10">
-                                <h4>ViSEF <span>"Home e-wallet"</span></h4>
-                                <p>Consolation prize at school level</p>
-                            </div>
-                        </div>
-
-                        <div class="row academic-item">
-                            <div class="col-md-2">
-                                <time>11</time>
-                            </div>
-                            <div class="col-md-10">
-                                <h4>Robocon - HCMUTE</h4>
-                            </div>
-                        </div>
-
-                        <div class="row academic-item">
-                            <div class="col-md-2">
-                                <time>10</time>
-                            </div>
-                            <div class="col-md-10">
-                                <h4>Excellent Student Competition</h4>
-                                <p>Third prize at school level in Informatics</p>
-                            </div>
-                        </div>
-                        <div class="row academic-item">
-                            <div class="col-md-2">
-                                <time>10</time>
-                            </div>
-                            <div class="col-md-10">
-                                <h4>SheCodes Hackathon</h4>
-                                <p> Code cách quý cô - Code like a girl</p>
-                            </div>
-                        </div>
-                        <div class="row academic-item">
-                            <div class="col-md-2">
-                                <time></time>
-                            </div>
-                            <div class="col-md-10">
-                                <p>Excellent student 3 years in a row, received a scholarship to encourage study for 3 years from the school</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Schdule Day 1 -->
-
-                    <!-- Schdule Day 2 -->
-                    <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
-
-                        <div class="row academic-item">
-                            <div class="col-md-2">
-                                <time>2020 - nay</time>
-                            </div>
-                            <div class="col-md-10">
-                                <h4>Le Demain <span>- Founder</span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-
-                        <div class="row academic-item">
-                            <div class="col-md-2">
-                                <time>9/2020 - 1/2022</time>
-                            </div>
-                            <div class="col-md-10">
-                                <h4>SheCodes Vietnam <span>- Lead Designer</span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-                        <div class="row academic-item">
-                            <div class="col-md-2">
-                                <time>1/2021 - 9/2021</time>
-                            </div>
-                            <div class="col-md-10">
-                                <h4>The Connection<span>- Adviser</span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-                        <div class="row academic-item">
-                            <div class="col-md-2">
-                                <time>2/2020 - 8/2020</time>
-                            </div>
-                            <div class="col-md-10">
-                                <h4>Xhibition+ <span>- Main Designer - HR</span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-                        <div class="row academic-item">
-                            <div class="col-md-2">
-                                <time>4/2020-6/2020</time>
-                            </div>
-                            <div class="col-md-10">
-                                <h4>CLB Tranh Biện DCD<span>- Marketing</span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-                        <div class="row academic-item">
-                            <div class="col-md-2">
-                                <time>3/2020 - 7/2020</time>
-                            </div>
-                            <div class="col-md-10">
-                                <h4>La Perception <span>- Designer</span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-                        <div class="row academic-item">
-                            <div class="col-md-2">
-                                <time>2019</time>
-                            </div>
-                            <div class="col-md-10">
-                                <h4>Project 2019: Văn hoá Trung Hoa <span>- Public Relations</span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-
-        </section>
-
-        <!--==========================
-        Gallery Section
-        ============================-->
-        <section id="gallery" class="wow fadeInUp">
-
-            <div class="container">
-                <div class="section-header">
-                    <h2>Album</h2>
-                    <p></p>
-                </div>
+    <section id="services" class="services">
+        <h2>Everything you<br>need we have!</h2>
+        
+        <div class="service-steps">
+            <div class="step">
+                <div class="step-number">01</div>
+                <div class="step-text">Volunteer Seek</div>
             </div>
-            <!-- add new image : crop image and resize 800*600 px -->
-            <div class="owl-carousel gallery-carousel">
-                <a href="img/album/1.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/album/1.jpg" alt=""></a>
-                <a href="img/album/2.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/album/2.jpg" alt=""></a>
-                <a href="img/album/3.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/album/3.jpg" alt=""></a>
-                <a href="img/album/4.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/album/4.jpg" alt=""></a>
-                <a href="img/album/5.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/album/5.jpg" alt=""></a>
-                <a href="img/album/6.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/album/6.jpg" alt=""></a>
-                <a href="img/album/7.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/album/7.jpg" alt=""></a>
-                <a href="img/album/8.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/album/8.jpg" alt=""></a>
+            <div class="step">
+                <div class="step-number">02</div>
+                <div class="step-text">Food Control</div>
             </div>
-        </section>
-    </main>
-
-    <!--==========================
-    Footer
-  ============================-->
-    <footer id="footer">
-        <div class="container">
-
-
+            <div class="step">
+                <div class="step-number">03</div>
+                <div class="step-text">Stakeholder Control</div>
+            </div>
+            <div class="step active">
+                <div class="step-number">04</div>
+                <div class="step-text">Support Disadvantaged Groups</div>
+                <div class="details">Details</div>
+            </div>
+            <div class="step">
+                <div class="step-number">05</div>
+                <div class="step-text">Information Management</div>
+            </div>
+            <div class="step">
+                <div class="step-number">06</div>
+                <div class="step-text">Evaluate Food Quality</div>
+            </div>
+            <div class="step">
+                <div class="step-number">07</div>
+                <div class="step-text">Storage</div>
+            </div>
         </div>
 
-    </footer>
-    <!-- #footer -->
+        <h2>Delivery of<br>our Package!</h2>
+        
+        <div class="delivery-services">
+            <div class="delivery-card">
+                <div class="icon">
+                    <i class="fas fa-clipboard-check"></i>
+                </div>
+                <h3>Assessment</h3>
+            </div>
+            <div class="delivery-card active">
+                <div class="icon">
+                    <i class="fas fa-truck-fast"></i>
+                </div>
+                <h3>Efficient Transportation</h3>
+            </div>
+            <div class="delivery-card">
+                <div class="icon">
+                    <i class="fas fa-warehouse"></i>
+                </div>
+                <h3>Warehousing and Storage</h3>
+            </div>
+            <div class="delivery-card">
+                <div class="icon">
+                    <i class="fas fa-people-group"></i>
+                </div>
+                <h3>Community Support and Coordination</h3>
+            </div>
+        </div>
+    </section>
 
-    <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+    <section id="application" class="application">
+        <div class="application-content">
+            <p>Do you want to become our volunteer?</p>
+            <p>Are you an individual or represent organization and want to work for Peace and Sustainable Excellence in your organization?</p>
+            <a href="#" class="send-application">SEND APPLICATION <span class="arrow">→</span></a>
+        </div>
+        <p class="copyright">© 2024 Humanitarian Logistics. All Rights Reserved</p>
+    </section>
 
-    <!-- JavaScript Libraries -->
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/jquery/jquery-migrate.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/superfish/hoverIntent.js"></script>
-    <script src="lib/superfish/superfish.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/venobox/venobox.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-
-
-    <!-- Template Main Javascript File -->
-    <script src="js/main.js"></script>
-    <!-- Global site tag (gtag.js) - SheCodesVietnam- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66102291-7"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-66102291-7');
-    </script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66102291-13"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-66102291-13');
-    </script>
-    <script src="js/countdown.js">
-    </script>
+    <script src="script.js"></script>
 </body>
-
-</html>
-               
+</html> 
